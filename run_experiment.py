@@ -50,7 +50,7 @@ if BACKEND == "local":
 if BACKEND == "api":
     config = get_backend_config(
         backend="api",
-        api_base_url="i",
+        api_base_url="https://your-azure-endpoint.openai.azure.com/openai",
         api_model="",
         api_key="",
         auth_type="api-key"

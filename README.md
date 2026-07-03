@@ -58,6 +58,12 @@ Dataset files and experiment result files are not included in this GitHub reposi
 pip install -r requirements.txt
 ```
 
+## Run
+
+```bash
+python run_experiment.py
+```
+
 ## Notes
 
 - API keys are not included in this repository.
