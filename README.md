@@ -6,7 +6,7 @@ Dataset files and experiment result files are not included in this GitHub reposi
 
 ## Repository structure
 
-- `run_cot_token_test.py` — main experiment driver
+- `run_experiment.py` — main experiment driver
 - `lm_token_tools/` — reusable toolkit code
 - `model_parameters.txt` — notes on model parameter settings by platform
 
@@ -20,7 +20,7 @@ Dataset files and experiment result files are not included in this GitHub reposi
 
 ## Code files
 
-- `run_cot_token_test.py`
+- `run_experiment.py`
   - Defines the experiment configuration, including backend choice, question source, condition prompts, user instruction, number of trials, and output file name.
 
 - `lm_token_tools/config_utils.py`
@@ -44,6 +44,13 @@ Dataset files and experiment result files are not included in this GitHub reposi
   - Records backend and prompt information for each row, including `system_prompt`, `user_instruction`, and `user_prompt`.
   - Saves returned outputs such as `final_answer`, `reasoning_text`, `has_reasoning`, `prompt_tokens`, `completion_tokens`, `reasoning_tokens`, `total_tokens`, `latency_seconds`, `finish_reason`, `raw_model`, `raw_response_id`, and `error`.
   - Saves partial results during the run, supports resume mode, and stores readable error messages when a request fails.
+
+
+## Project information
+
+- Developed by Vermut BH. Gao
+- LUCID, Chapman University Brain Lab
+- Lab page: [https://chapmanbrain.org](https://chapmanbrain.org)
 
 ## Installation
 

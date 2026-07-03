@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Token Spike Project"
+authors:
+  - family-names: "Gao"
+    given-names: "Vermut BH."
+repository-code: "https://github.com/Wakaranaino/token-spike-project"
+license: "MIT"
