@@ -46,12 +46,6 @@ Dataset files and experiment result files are not included in this GitHub reposi
   - Saves partial results during the run, supports resume mode, and stores readable error messages when a request fails.
 
 
-## Project information
-
-- Developed by Vermut BH. Gao
-- LUCID, Chapman University Brain Lab
-- Lab page: [https://chapmanbrain.org](https://chapmanbrain.org)
-
 ## Installation
 
 ```bash
