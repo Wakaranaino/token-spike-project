@@ -1,0 +1,22 @@
+Model Parameters Notes
+======================
+
+This file records the model parameter settings used or noted for the platforms in this project.
+
+LM Studio
+---------
+These settings were used for LM Studio local-model runs such as Gemma and Qwen.
+
+- temperature = 1
+- top_p = 0.95
+- top_k = 20
+- repeat penalty = off / default
+- presence penalty = off / default
+- min_p = off / default
+- seed = random unless intentionally fixed
+- enable thinking = on
+
+Groq: gpt-oss-120b
+------------------
+For Groq API runs with `openai/gpt-oss-120b`, parameter behavior mainly follows the provider or platform defaults.
+

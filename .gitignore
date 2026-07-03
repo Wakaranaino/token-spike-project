@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE files
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Excel temporary files
+~$*.xlsx
+
+# Local environment files
+.env
